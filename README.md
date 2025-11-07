@@ -8,45 +8,36 @@ Version: 2.7 (October 2025)
 ----------------------------------------------------
 DESCRIPTION
 ----------------------------------------------------
-PRISM is an Excel-based toolkit for automating 
-donor research and data gathering. It integrates 
-public data sources (like parcel search sites, 
-FEC campaign contributions, and Whitepages) into 
-a streamlined, repeatable process.
+**PRISM** (Prospect Research & Intelligence System for Major Gifts) is an Excel-based toolkit developed for the **Archdiocese of Omaha** to assist diocesan and parish development offices in automating donor research and data collection.  
 
-The system is packaged as a .xlam add-in and runs 
-entirely within Excel using VBA and Power Query.
+The system integrates publicly available information into a streamlined, repeatable process, helping Catholic organizations improve stewardship efficiency and data accuracy while remaining compliant with privacy and ethical standards.  
+
+PRISM is packaged as a `.xlam` Excel Add-in and runs entirely within Microsoft Excel using **VBA** and **Power Query**. No external software installation is required.
 
 ----------------------------------------------------
 KEY FEATURES
 ----------------------------------------------------
-- Whitepages Lookup Automation
-  > Generates search URLs and parses results via Power Query
+### Donor & Contact Research  
+- Automated lookups from publicly available data sources  
+- Intelligent result parsing and filtering for clean, structured outputs  
 
-- FEC Contributions Search
-  > Queries the FEC API by name and address, auto-filters
-    duplicates and ambiguous matches
+### Contributions & Public Filings  
+- Built-in search for publicly disclosed campaign and contribution data  
+- Duplicate and ambiguous result filtering  
 
-- Parcel Data Querying
-  > Supports:
-    • Beacon (Schneider Geospatial)
-    • Sarpy County GIS
-    • Dickinson County, IA
-    • gWorks counties in Nebraska
+### Property & Parcel Data Queries  
+- Support for multiple county-level systems in Nebraska and Iowa  
+- Unified output format for simplified data handling  
 
-- Address Normalization
-  > Built-in Power Query functions:
-    • Normalize
-    • Unabreviate
-    • normalizeColumns
+### Address Normalization  
+- Built-in Power Query functions to standardize and expand address data  
+  - `Normalize`  
+  - `Unabbreviate`  
+  - `normalizeColumns`  
 
-- Geographic Filtering
-  > Supports NE and IA counties with mapping for ZIP and parcel
-    search URLs
-
-- Link Generation
-  > Auto-generates URLs for LinkedIn, Whitepages, and county 
-    assessor records
+### Geographic & ZIP Filtering  
+- Configured for Nebraska and Iowa counties  
+- Automatic mapping between ZIP codes and parcel search endpoints  
 
 ----------------------------------------------------
 INSTALLATION
@@ -57,23 +48,20 @@ INSTALLATION
 ----------------------------------------------------
 USAGE NOTES
 ----------------------------------------------------
-- PRISM is designed for internal use by the Archdiocese 
-  Development Office.
-- It avoids external dependencies like RibbonX or Selenium.
-- Sheets in the add-in are hidden or removed. All logic is 
-  modular and centralized in VBA modules.
-- Designed for extensibility: county mappings, name filters, 
-  and data extraction logic are modular.
+- PRISM is designed primarily for **internal use** by the **Archdiocese of Omaha Stewardship and Development Office**.  
+- The add-in runs entirely within Excel, no internet browser automation or third-party dependencies.  
+- All sheets are hidden or removed to protect functionality and security.  
+- The codebase is modular, enabling controlled customization for other dioceses or authorized Catholic institutions.  
 
 ----------------------------------------------------
 SUPPORT & CONTACT
 ----------------------------------------------------
-Author: Jacob V. Sykora  
-Arch O Email: jvsykora@archomaha.org
-Personal Email: sykojv@gmail.com
+The Author welcomes collaboration with other **Catholic dioceses**, **parishes**, or **affiliated ministries** seeking to responsibly implement PRISM for their stewardship efforts.  
 
-For support, updates, or maintenance documentation, 
-contact the Office of Stewardship and Development.
+If your organization is interested in adopting PRISM or receiving technical guidance, please contact Jacob Sykora for approval and coordination.
+
+Author: Jacob Sykora  
+Personal Email: sykojv@gmail.com
 
 ----------------------------------------------------
 DISCLAIMER
