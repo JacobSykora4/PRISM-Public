@@ -58,10 +58,9 @@ SUPPORT & CONTACT
 ----------------------------------------------------
 The Author welcomes collaboration with other **Catholic dioceses**, **parishes**, or **affiliated ministries** seeking to responsibly implement PRISM for their stewardship efforts.  
 
-If your organization is interested in adopting PRISM or receiving technical guidance, please contact Jacob Sykora for approval and coordination.
+If your organization is interested in adopting PRISM or receiving technical guidance, please contact Jacob Sykora to request information.
 
-Author: Jacob Sykora  
-Personal Email: sykojv@gmail.com
+Author: Jacob Sykora
 
 ----------------------------------------------------
 DISCLAIMER
@@ -80,7 +79,7 @@ PRISM (Prospect Research and Intelligence System for Major Gifts) is the intelle
 Permission to use PRISM is granted exclusively to:
 
 - The Archdiocese of Omaha
-- Other Catholic dioceses or affiliated institutions with prior written approval from Jacob Sykora or the Archdiocese of Omaha.
+- Other Catholic dioceses or affiliated institutions with prior written approval from Jacob Sykora and the Archdiocese of Omaha.
 
 Redistribution, modification, or use outside the approved scope is prohibited without express permission.
 
