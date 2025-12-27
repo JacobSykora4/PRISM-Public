@@ -26,7 +26,7 @@ KEY FEATURES
 - Duplicate and ambiguous result filtering  
 
 ### Property & Parcel Data Queries  
-- Support for multiple county-level systems in Nebraska and Iowa  
+- Support for multiple county-level systems in Nebraska 
 - Unified output format for simplified data handling  
 
 ### Address Normalization  
@@ -36,7 +36,7 @@ KEY FEATURES
   - `normalizeColumns`  
 
 ### Geographic & ZIP Filtering  
-- Configured for Nebraska and Iowa counties  
+- Configured for Nebraska counties  
 - Automatic mapping between ZIP codes and parcel search endpoints  
 
 ----------------------------------------------------
