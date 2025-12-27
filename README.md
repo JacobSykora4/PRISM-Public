@@ -40,17 +40,10 @@ KEY FEATURES
 - Automatic mapping between ZIP codes and parcel search endpoints  
 
 ----------------------------------------------------
-INSTALLATION
-----------------------------------------------------
-1. Save PRISM.xlam to a trusted folder
-2. Follow instructions in the "Start-up and Usage guide.pdf"
-
-----------------------------------------------------
 USAGE NOTES
 ----------------------------------------------------
 - PRISM is designed primarily for **internal use** by the **Archdiocese of Omaha Stewardship and Development Office**.  
 - The add-in runs entirely within Excel, no internet browser automation or third-party dependencies.  
-- All sheets are hidden or removed to protect functionality and security.  
 - The codebase is modular, enabling controlled customization for other dioceses or authorized Catholic institutions.  
 
 ----------------------------------------------------
